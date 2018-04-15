@@ -20,6 +20,6 @@ public class JokeController {
     public String showJoke(Model model){
         model.addAttribute("joke", jokesService.getJoke());
 
-        return "chucknorris";
+        return "checknorris";
     }
 }
